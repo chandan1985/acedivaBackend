@@ -1,9 +1,7 @@
 const express = require("express");
 const { sendResponse } = require("../utils/common");
-require("dotenv").config();
 const Booking = require("../model/booking.Schema");
 const bookingController = express.Router();
-require("dotenv").config();
 const Repair = require("../model/repair.Schema");
 const Installation = require("../model/installation.Schema");
 const Service = require("../model/service.Schema");

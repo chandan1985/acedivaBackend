@@ -1,9 +1,7 @@
 const express = require("express");
 const { sendResponse } = require("../utils/common");
-require("dotenv").config();
 const Category = require("../model/category.Schema");
 const categoryController = express.Router();
-require("dotenv").config();
 const cloudinary = require("../utils/cloudinary");
 const upload = require("../utils/multer");
 const SubCategory = require("../model/subCategory.Schema");

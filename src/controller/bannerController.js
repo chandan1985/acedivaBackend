@@ -1,9 +1,7 @@
 const express = require("express");
 const { sendResponse } = require("../utils/common");
-require("dotenv").config();
 const Banner = require("../model/banner.Schema");
 const bannerController = express.Router();
-require("dotenv").config();
 const cloudinary = require("../utils/cloudinary");
 const upload = require("../utils/multer");
 

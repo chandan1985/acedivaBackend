@@ -1,11 +1,9 @@
 const express = require("express");
 const { sendResponse } = require("../utils/common");
-require("dotenv").config();
 const Support = require("../model/support.Schema");
 const Contact = require("../model/contact.Schema");
 const Faq = require("../model/faq.Schema");
 const supportController = express.Router();
-require("dotenv").config();
 
 supportController.post("/add-contact-query", async (req, res) => {
   try {

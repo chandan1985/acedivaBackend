@@ -1,8 +1,6 @@
 const express = require("express");
 const { sendResponse } = require("../utils/common");
-require("dotenv").config();
 const serviceController = express.Router();
-require("dotenv").config();
 const repair = require("../model/repair.Schema");
 const installation = require("../model/installation.Schema");
 const service = require("../model/service.Schema");

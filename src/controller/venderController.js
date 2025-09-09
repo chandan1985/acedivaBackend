@@ -1,6 +1,5 @@
 const express = require("express");
 const { sendResponse, generateOTP } = require("../utils/common");
-require("dotenv").config();
 const Vender = require("../model/vender.Schema");
 const Booking = require("../model/booking.Schema");
 const Service = require("../model/service.Schema");
@@ -9,7 +8,6 @@ const Installation = require("../model/installation.Schema");
 const User = require("../model/user.Schema");
 const venderController = express.Router();
 const axios = require("axios");
-require("dotenv").config();
 const jwt = require("jsonwebtoken");
 const cloudinary = require("../utils/cloudinary");
 const upload = require("../utils/multer");

@@ -1,9 +1,7 @@
 const express = require("express");
 const { sendResponse } = require("../utils/common");
-require("dotenv").config();
 const Address = require("../model/address.Schema");
 const addressController = express.Router();
-require("dotenv").config();
 
 addressController.post("/create", async (req, res) => {
   try {

@@ -1,9 +1,7 @@
 const express = require("express");
 const { sendResponse } = require("../utils/common");
-require("dotenv").config();
 const Installation = require("../model/installation.Schema");
 const installationController = express.Router();
-require("dotenv").config();
 const cloudinary = require("../utils/cloudinary");
 const upload = require("../utils/multer");
 
